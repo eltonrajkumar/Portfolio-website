@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elton Immanuel Rajkumar | Software Engineer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Video -->
+    <video autoplay loop muted playsinline class="bg-video">
+        <source src="https://assets.mixkit.co/videos/preview/mixkit-particles-and-lines-of-a-network-51540-large.mp4" type="video/mp4">
+    </video>
+    <div class="video-overlay"></div>
+
+    <div class="glow-orb"></div>
+    <div class="glow-orborb-2"></div>
+    
+    <nav class="navbar">
+        <a href="#home" class="logo">E.I.R</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- SECTION: Hero -->
+    <section id="home" class="hero">
+        <div class="container">
+            <p class="tagline">Elton Immanuel Rajkumar | Software Engineer</p>
+            <h1 class="name">Elton Immanuel <br> <span class="highlight">Rajkumar</span></h1>
+            <h2 class="role">Software Engineer / Python Developer</h2>
+            <p class="headline">Software Engineer building secure, high-performance applications.</p>
+            <div class="hero-actions split-actions">
+                <div class="btn-group">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="btn-group mt-sm">
+                    <a href="resume.pdf" download class="btn btn-download"><i class="fas fa-download"></i> Download CV</a>
+                    <a href="specialised-resume.pdf" download class="btn btn-download"><i class="fas fa-file-pdf"></i> Specialized CV</a>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/eltonrajkumar" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/eltonrajkumar" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="mailto:eltonrajkumar@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: About Me -->
+    <section id="about" class="about section">
+        <div class="container">
+            <h2 class="section-title">Career <span class="highlight">Snapshot</span></h2>
+            <div class="about-content">
+                <div class="about-text glass-panel">
+                    <p>I am a Computer Science student at Lovely Professional University with a strong foundation in C++ and Python development. I specialize in backend systems, real-time metrics generation, and structural algorithmic problem-solving because I thrive on tackling complex technical challenges. My primary career objective is to become a top-tier Software Engineer, delivering scalable software architectures and high-impact applications that improve user experiences and system stability.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-box glass-panel">
+                        <h3>100+</h3>
+                        <p>LeetCode Problems</p>
+                    </div>
+                    <div class="stat-box glass-panel">
+                        <h3>100 <span class="text-sm">WPM</span></h3>
+                        <p>Typing Speed (95% Acc)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Skills -->
+    <section id="skills" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Technical <span class="highlight">Arsenal</span></h2>
+            <div class="skills-table-wrapper glass-panel">
+                <table class="skills-table">
+                    <thead>
+                        <tr>
+                            <th>Category</th>
+                            <th>Proficiencies</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cat-name"><i class="fas fa-code"></i> Programming Languages</td>
+                            <td>C++, Java, Python, JavaScript, C</td>
+                        </tr>
+                        <tr>
+                            <td class="cat-name"><i class="fas fa-globe"></i> Web & Frameworks</td>
+                            <td>HTML, CSS, Streamlit</td>
+                        </tr>
+                        <tr>
+                            <td class="cat-name"><i class="fas fa-tools"></i> Tools & Platforms</td>
+                            <td>MySQL, Git, GitHub</td>
+                        </tr>
+                        <tr>
+                            <td class="cat-name"><i class="fas fa-brain"></i> Concepts & Libraries</td>
+                            <td>DSA, OOP, Machine Learning Basics, Matplotlib, Numpy, Tkinter, Psutil</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Projects -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <h2 class="section-title">Featured <span class="highlight">Projects</span></h2>
+            <div class="projects-grid">
+                
+                <!-- Project 1 -->
+                <div class="project-card glass-panel cursor-anim">
+                    <div class="project-header">
+                        <h3>Real Time Process Monitor</h3>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-desc">Developed an interactive real-time system process monitoring app with a responsive dashboard and ML-based anomaly detection to identify performance issues early.</p>
+                    <div class="project-details">
+                        <div class="detail-row">
+                            <strong><i class="fas fa-wrench"></i> Tools:</strong> Python, Streamlit, Psutil, Optuna, ML
+                        </div>
+                        <div class="detail-row">
+                            <strong><i class="fas fa-bullseye"></i> Skills demonstrated:</strong> System monitoring, OS-level API integration, Performance optimization
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card glass-panel cursor-anim">
+                    <div class="project-header">
+                        <h3>SecurePass Pro</h3>
+                        <div class="project-links">
+                            <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p class="project-desc">Built an advanced password strength analysis tool that evaluates robustness using hashing logic, entropy analysis, and rule-based validation to detect vulnerabilities.</p>
+                    <div class="project-details">
+                        <div class="detail-row">
+                            <strong><i class="fas fa-wrench"></i> Tools:</strong> JavaScript, Regex, Entroy Analysis
+                        </div>
+                        <div class="detail-row">
+                            <strong><i class="fas fa-bullseye"></i> Skills demonstrated:</strong> Data Structures & Algorithms, Web Security, Security Awareness
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Certifications & Extra -->
+    <section id="certifications" class="certifications section">
+        <div class="container">
+            <div class="split-layout">
+                <div class="col left-col">
+                    <h2 class="section-title">Certifications</h2>
+                    <ul class="cert-list glass-panel">
+                        <li><i class="fas fa-award"></i> Computational Theory & Finite Automata <span>(Dec 2025)</span></li>
+                        <li><i class="fas fa-award"></i> Generative AI Apps with No-Code Tools <span>(Dec 2025)</span></li>
+                        <li><i class="fas fa-award"></i> ChatGPT-4 Prompt Engineering <span>(Aug 2025)</span></li>
+                        <li><i class="fas fa-award"></i> DSA Summer Bootcamp – LPU <span>(Jul 2025)</span></li>
+                        <li><i class="fas fa-award"></i> Android App Dev with Kotlin <span>(Jun 2025)</span></li>
+                    </ul>
+                </div>
+                <div class="col right-col">
+                    <h2 class="section-title">Soft Skills & <span class="highlight">Activities</span></h2>
+                    <div class="soft-skills glass-panel">
+                        <span class="pill">Problem Solving</span>
+                        <span class="pill">Teamwork</span>
+                        <span class="pill">Adaptability</span>
+                        <span class="pill">Time Management</span>
+                    </div>
+                    <div class="activities glass-panel">
+                        <div class="activity-item">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4>CODE OFF DUTY Hackathon</h4>
+                                <p>Reached Semi-Finals by delivering an innovative solution.</p>
+                            </div>
+                        </div>
+                        <div class="activity-item mt">
+                            <i class="fas fa-star hidden-icon"></i>
+                            <div>
+                                <h4>HackerRank Silver Badge</h4>
+                                <p>Achieved 3-star Silver badge for coding proficiency.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION: Contact -->
+    <section id="contact" class="contact section">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-wrapper glass-panel">
+                <div class="contact-info">
+                    <div class="c-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:eltonrajkumar@gmail.com">eltonrajkumar@gmail.com</a>
+                    </div>
+                    <div class="c-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+919074870069">+91 9074870069</a>
+                    </div>
+                    <div class="c-item">
+                        <i class="fab fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/eltonrajkumar" target="_blank">linkedin.com/eltonrajkumar</a>
+                    </div>
+                    <div class="c-item">
+                        <i class="fab fa-github"></i>
+                        <a href="https://github.com/eltonrajkumar" target="_blank">github.com/eltonrajkumar</a>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <p>I am actively seeking Software Engineering roles. Feel free to connect with me!</p>
+                    <a href="mailto:eltonrajkumar@gmail.com" class="btn btn-primary">Send a Message</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Elton Immanuel Rajkumar. Built with precision.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
